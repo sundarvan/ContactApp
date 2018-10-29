@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		07D5C1972186EF0800A98F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D5C1952186EF0800A98F7A /* LaunchScreen.storyboard */; };
 		07D5C1A22186EF0800A98F7A /* Go_ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1A12186EF0800A98F7A /* Go_ContactsTests.swift */; };
 		07D5C1AD2186EF0800A98F7A /* Go_ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1AC2186EF0800A98F7A /* Go_ContactsUITests.swift */; };
+		7CA11A496AC3D00D2E1D9832 /* Pods_Go_ContactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE1630C451A8AF0FC95905D /* Pods_Go_ContactsUITests.framework */; };
+		B7A0C4387BA205E1DD1C4F8D /* Pods_Go_ContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C59435A4C4B42A1087F6C38 /* Pods_Go_ContactsTests.framework */; };
+		CF0929616D2B9DCBB6FFADDE /* Pods_Go_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93542DDC5BFA7DB16F04ED0C /* Pods_Go_Contacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		07D5C1A82186EF0800A98F7A /* Go-ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-ContactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D5C1AC2186EF0800A98F7A /* Go_ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_ContactsUITests.swift; sourceTree = "<group>"; };
 		07D5C1AE2186EF0800A98F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93542DDC5BFA7DB16F04ED0C /* Pods_Go_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C59435A4C4B42A1087F6C38 /* Pods_Go_ContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_ContactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B83E37B0D35535CA5DAAA3 /* Pods-Go-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-Contacts/Pods-Go-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		AAA9510EAF88007BF48D420E /* Pods-Go-ContactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-ContactsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-ContactsUITests/Pods-Go-ContactsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE1630C451A8AF0FC95905D /* Pods_Go_ContactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_ContactsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F06FC957005E9BDBA11008 /* Pods-Go-ContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-ContactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-ContactsTests/Pods-Go-ContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC29A6BA8E76A37AFAC3352 /* Pods-Go-ContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-ContactsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-ContactsTests/Pods-Go-ContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9160D11787F7A42CD3E7F51 /* Pods-Go-ContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-ContactsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-ContactsUITests/Pods-Go-ContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC25F2DF91FE5DCAC9CEECA /* Pods-Go-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-Contacts/Pods-Go-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0929616D2B9DCBB6FFADDE /* Pods_Go_Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A0C4387BA205E1DD1C4F8D /* Pods_Go_ContactsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA11A496AC3D00D2E1D9832 /* Pods_Go_ContactsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				07D5C1A02186EF0800A98F7A /* Go-ContactsTests */,
 				07D5C1AB2186EF0800A98F7A /* Go-ContactsUITests */,
 				07D5C1872186EEF900A98F7A /* Products */,
+				F699BA6F200AF3EA1F3A8C14 /* Pods */,
+				0C92CA3220951858308BF545 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,9 @@
 		07D5C1882186EEF900A98F7A /* Go-Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				07D5C1BE218700B800A98F7A /* Service */,
+				07D5C1BD218700B100A98F7A /* Module */,
+				07D5C1BC218700A900A98F7A /* Model */,
 				07D5C1892186EEF900A98F7A /* AppDelegate.swift */,
 				07D5C18B2186EEF900A98F7A /* ViewController.swift */,
 				07D5C18D2186EEFA00A98F7A /* Main.storyboard */,
@@ -128,6 +148,50 @@
 			path = "Go-ContactsUITests";
 			sourceTree = "<group>";
 		};
+		07D5C1BC218700A900A98F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07D5C1BD218700B100A98F7A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		07D5C1BE218700B800A98F7A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0C92CA3220951858308BF545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93542DDC5BFA7DB16F04ED0C /* Pods_Go_Contacts.framework */,
+				9C59435A4C4B42A1087F6C38 /* Pods_Go_ContactsTests.framework */,
+				BCE1630C451A8AF0FC95905D /* Pods_Go_ContactsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F699BA6F200AF3EA1F3A8C14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC25F2DF91FE5DCAC9CEECA /* Pods-Go-Contacts.debug.xcconfig */,
+				A5B83E37B0D35535CA5DAAA3 /* Pods-Go-Contacts.release.xcconfig */,
+				C6F06FC957005E9BDBA11008 /* Pods-Go-ContactsTests.debug.xcconfig */,
+				CCC29A6BA8E76A37AFAC3352 /* Pods-Go-ContactsTests.release.xcconfig */,
+				D9160D11787F7A42CD3E7F51 /* Pods-Go-ContactsUITests.debug.xcconfig */,
+				AAA9510EAF88007BF48D420E /* Pods-Go-ContactsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D5C1B12186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-Contacts" */;
 			buildPhases = (
+				4F49309EDC74FC9D267B1241 /* [CP] Check Pods Manifest.lock */,
 				07D5C1822186EEF900A98F7A /* Sources */,
 				07D5C1832186EEF900A98F7A /* Frameworks */,
 				07D5C1842186EEF900A98F7A /* Resources */,
+				C120293C436CE9D9B373931A /* [CP] Embed Pods Frameworks */,
+				68E52A2B6924138BDF2D4709 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D5C1B42186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsTests" */;
 			buildPhases = (
+				D6FB47326FE25B8732916BEB /* [CP] Check Pods Manifest.lock */,
 				07D5C1992186EF0800A98F7A /* Sources */,
 				07D5C19A2186EF0800A98F7A /* Frameworks */,
 				07D5C19B2186EF0800A98F7A /* Resources */,
+				CA80D6445E35C583F929C36B /* [CP] Embed Pods Frameworks */,
+				DF4B049474A1F639E2BCD749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D5C1B72186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsUITests" */;
 			buildPhases = (
+				EACAAA71392211F594C6B64B /* [CP] Check Pods Manifest.lock */,
 				07D5C1A42186EF0800A98F7A /* Sources */,
 				07D5C1A52186EF0800A98F7A /* Frameworks */,
 				07D5C1A62186EF0800A98F7A /* Resources */,
+				5246FFB0B43F61E3A018FA17 /* [CP] Embed Pods Frameworks */,
+				2077F527D7FEBDD974A65451 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,19 +269,22 @@
 				TargetAttributes = {
 					07D5C1852186EEF900A98F7A = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 					07D5C19C2186EF0800A98F7A = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 07D5C1852186EEF900A98F7A;
 					};
 					07D5C1A72186EF0800A98F7A = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 07D5C1852186EEF900A98F7A;
 					};
 				};
 			};
 			buildConfigurationList = 07D5C1812186EEF900A98F7A /* Build configuration list for PBXProject "Go-Contacts" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -253,6 +329,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2077F527D7FEBDD974A65451 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-ContactsUITests/Pods-Go-ContactsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F49309EDC74FC9D267B1241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-Contacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5246FFB0B43F61E3A018FA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-ContactsUITests/Pods-Go-ContactsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E52A2B6924138BDF2D4709 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-Contacts/Pods-Go-Contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C120293C436CE9D9B373931A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Go-Contacts/Pods-Go-Contacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-Contacts/Pods-Go-Contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA80D6445E35C583F929C36B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-ContactsTests/Pods-Go-ContactsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FB47326FE25B8732916BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-ContactsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4B049474A1F639E2BCD749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-ContactsTests/Pods-Go-ContactsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACAAA71392211F594C6B64B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-ContactsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07D5C1822186EEF900A98F7A /* Sources */ = {
@@ -426,23 +652,21 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		07D5C1B22186EF0800A98F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC25F2DF91FE5DCAC9CEECA /* Pods-Go-Contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-Contacts/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -452,15 +676,14 @@
 		};
 		07D5C1B32186EF0800A98F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B83E37B0D35535CA5DAAA3 /* Pods-Go-Contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-Contacts/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -470,17 +693,14 @@
 		};
 		07D5C1B52186EF0800A98F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F06FC957005E9BDBA11008 /* Pods-Go-ContactsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-ContactsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -491,17 +711,14 @@
 		};
 		07D5C1B62186EF0800A98F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC29A6BA8E76A37AFAC3352 /* Pods-Go-ContactsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-ContactsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -512,16 +729,13 @@
 		};
 		07D5C1B82186EF0800A98F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9160D11787F7A42CD3E7F51 /* Pods-Go-ContactsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-ContactsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -532,16 +746,13 @@
 		};
 		07D5C1B92186EF0800A98F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA9510EAF88007BF48D420E /* Pods-Go-ContactsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EPUY7FDRP;
 				INFOPLIST_FILE = "Go-ContactsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
