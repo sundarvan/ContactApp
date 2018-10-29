@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D5C18A2186EEF900A98F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1892186EEF900A98F7A /* AppDelegate.swift */; };
+		07D5C18C2186EEF900A98F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C18B2186EEF900A98F7A /* ViewController.swift */; };
+		07D5C18F2186EEFA00A98F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D5C18D2186EEFA00A98F7A /* Main.storyboard */; };
+		07D5C1922186EEFA00A98F7A /* Go_Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1902186EEFA00A98F7A /* Go_Contacts.xcdatamodeld */; };
+		07D5C1942186EF0800A98F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D5C1932186EF0800A98F7A /* Assets.xcassets */; };
+		07D5C1972186EF0800A98F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D5C1952186EF0800A98F7A /* LaunchScreen.storyboard */; };
+		07D5C1A22186EF0800A98F7A /* Go_ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1A12186EF0800A98F7A /* Go_ContactsTests.swift */; };
+		07D5C1AD2186EF0800A98F7A /* Go_ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C1AC2186EF0800A98F7A /* Go_ContactsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D5C19E2186EF0800A98F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D5C17E2186EEF900A98F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D5C1852186EEF900A98F7A;
+			remoteInfo = "Go-Contacts";
+		};
+		07D5C1A92186EF0800A98F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D5C17E2186EEF900A98F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D5C1852186EEF900A98F7A;
+			remoteInfo = "Go-Contacts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D5C1862186EEF900A98F7A /* Go-Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5C1892186EEF900A98F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07D5C18B2186EEF900A98F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07D5C18E2186EEFA00A98F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D5C1912186EEFA00A98F7A /* Go_Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Go_Contacts.xcdatamodel; sourceTree = "<group>"; };
+		07D5C1932186EF0800A98F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D5C1962186EF0800A98F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D5C1982186EF0800A98F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D5C19D2186EF0800A98F7A /* Go-ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-ContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5C1A12186EF0800A98F7A /* Go_ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_ContactsTests.swift; sourceTree = "<group>"; };
+		07D5C1A32186EF0800A98F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D5C1A82186EF0800A98F7A /* Go-ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-ContactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D5C1AC2186EF0800A98F7A /* Go_ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_ContactsUITests.swift; sourceTree = "<group>"; };
+		07D5C1AE2186EF0800A98F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D5C1832186EEF900A98F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C19A2186EF0800A98F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C1A52186EF0800A98F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D5C17D2186EEF900A98F7A = {
+			isa = PBXGroup;
+			children = (
+				07D5C1882186EEF900A98F7A /* Go-Contacts */,
+				07D5C1A02186EF0800A98F7A /* Go-ContactsTests */,
+				07D5C1AB2186EF0800A98F7A /* Go-ContactsUITests */,
+				07D5C1872186EEF900A98F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D5C1872186EEF900A98F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D5C1862186EEF900A98F7A /* Go-Contacts.app */,
+				07D5C19D2186EF0800A98F7A /* Go-ContactsTests.xctest */,
+				07D5C1A82186EF0800A98F7A /* Go-ContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D5C1882186EEF900A98F7A /* Go-Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				07D5C1892186EEF900A98F7A /* AppDelegate.swift */,
+				07D5C18B2186EEF900A98F7A /* ViewController.swift */,
+				07D5C18D2186EEFA00A98F7A /* Main.storyboard */,
+				07D5C1932186EF0800A98F7A /* Assets.xcassets */,
+				07D5C1952186EF0800A98F7A /* LaunchScreen.storyboard */,
+				07D5C1982186EF0800A98F7A /* Info.plist */,
+				07D5C1902186EEFA00A98F7A /* Go_Contacts.xcdatamodeld */,
+			);
+			path = "Go-Contacts";
+			sourceTree = "<group>";
+		};
+		07D5C1A02186EF0800A98F7A /* Go-ContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D5C1A12186EF0800A98F7A /* Go_ContactsTests.swift */,
+				07D5C1A32186EF0800A98F7A /* Info.plist */,
+			);
+			path = "Go-ContactsTests";
+			sourceTree = "<group>";
+		};
+		07D5C1AB2186EF0800A98F7A /* Go-ContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D5C1AC2186EF0800A98F7A /* Go_ContactsUITests.swift */,
+				07D5C1AE2186EF0800A98F7A /* Info.plist */,
+			);
+			path = "Go-ContactsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D5C1852186EEF900A98F7A /* Go-Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5C1B12186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-Contacts" */;
+			buildPhases = (
+				07D5C1822186EEF900A98F7A /* Sources */,
+				07D5C1832186EEF900A98F7A /* Frameworks */,
+				07D5C1842186EEF900A98F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go-Contacts";
+			productName = "Go-Contacts";
+			productReference = 07D5C1862186EEF900A98F7A /* Go-Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D5C19C2186EF0800A98F7A /* Go-ContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5C1B42186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsTests" */;
+			buildPhases = (
+				07D5C1992186EF0800A98F7A /* Sources */,
+				07D5C19A2186EF0800A98F7A /* Frameworks */,
+				07D5C19B2186EF0800A98F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D5C19F2186EF0800A98F7A /* PBXTargetDependency */,
+			);
+			name = "Go-ContactsTests";
+			productName = "Go-ContactsTests";
+			productReference = 07D5C19D2186EF0800A98F7A /* Go-ContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D5C1A72186EF0800A98F7A /* Go-ContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D5C1B72186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsUITests" */;
+			buildPhases = (
+				07D5C1A42186EF0800A98F7A /* Sources */,
+				07D5C1A52186EF0800A98F7A /* Frameworks */,
+				07D5C1A62186EF0800A98F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D5C1AA2186EF0800A98F7A /* PBXTargetDependency */,
+			);
+			name = "Go-ContactsUITests";
+			productName = "Go-ContactsUITests";
+			productReference = 07D5C1A82186EF0800A98F7A /* Go-ContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D5C17E2186EEF900A98F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = sundar;
+				TargetAttributes = {
+					07D5C1852186EEF900A98F7A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					07D5C19C2186EF0800A98F7A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 07D5C1852186EEF900A98F7A;
+					};
+					07D5C1A72186EF0800A98F7A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 07D5C1852186EEF900A98F7A;
+					};
+				};
+			};
+			buildConfigurationList = 07D5C1812186EEF900A98F7A /* Build configuration list for PBXProject "Go-Contacts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D5C17D2186EEF900A98F7A;
+			productRefGroup = 07D5C1872186EEF900A98F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D5C1852186EEF900A98F7A /* Go-Contacts */,
+				07D5C19C2186EF0800A98F7A /* Go-ContactsTests */,
+				07D5C1A72186EF0800A98F7A /* Go-ContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D5C1842186EEF900A98F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5C1972186EF0800A98F7A /* LaunchScreen.storyboard in Resources */,
+				07D5C1942186EF0800A98F7A /* Assets.xcassets in Resources */,
+				07D5C18F2186EEFA00A98F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C19B2186EF0800A98F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C1A62186EF0800A98F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D5C1822186EEF900A98F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5C1922186EEFA00A98F7A /* Go_Contacts.xcdatamodeld in Sources */,
+				07D5C18C2186EEF900A98F7A /* ViewController.swift in Sources */,
+				07D5C18A2186EEF900A98F7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C1992186EF0800A98F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5C1A22186EF0800A98F7A /* Go_ContactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D5C1A42186EF0800A98F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D5C1AD2186EF0800A98F7A /* Go_ContactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D5C19F2186EF0800A98F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D5C1852186EEF900A98F7A /* Go-Contacts */;
+			targetProxy = 07D5C19E2186EF0800A98F7A /* PBXContainerItemProxy */;
+		};
+		07D5C1AA2186EF0800A98F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D5C1852186EEF900A98F7A /* Go-Contacts */;
+			targetProxy = 07D5C1A92186EF0800A98F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D5C18D2186EEFA00A98F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D5C18E2186EEFA00A98F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D5C1952186EF0800A98F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D5C1962186EF0800A98F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D5C1AF2186EF0800A98F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07D5C1B02186EF0800A98F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D5C1B22186EF0800A98F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-Contacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-Contacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D5C1B32186EF0800A98F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-Contacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-Contacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07D5C1B52186EF0800A98F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-ContactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go-Contacts.app/Go-Contacts";
+			};
+			name = Debug;
+		};
+		07D5C1B62186EF0800A98F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-ContactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go-Contacts.app/Go-Contacts";
+			};
+			name = Release;
+		};
+		07D5C1B82186EF0800A98F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-ContactsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go-Contacts";
+			};
+			name = Debug;
+		};
+		07D5C1B92186EF0800A98F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EPUY7FDRP;
+				INFOPLIST_FILE = "Go-ContactsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.izyoo.Go-ContactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go-Contacts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D5C1812186EEF900A98F7A /* Build configuration list for PBXProject "Go-Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5C1AF2186EF0800A98F7A /* Debug */,
+				07D5C1B02186EF0800A98F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D5C1B12186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5C1B22186EF0800A98F7A /* Debug */,
+				07D5C1B32186EF0800A98F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D5C1B42186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5C1B52186EF0800A98F7A /* Debug */,
+				07D5C1B62186EF0800A98F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D5C1B72186EF0800A98F7A /* Build configuration list for PBXNativeTarget "Go-ContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D5C1B82186EF0800A98F7A /* Debug */,
+				07D5C1B92186EF0800A98F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07D5C1902186EEFA00A98F7A /* Go_Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07D5C1912186EEFA00A98F7A /* Go_Contacts.xcdatamodel */,
+			);
+			currentVersion = 07D5C1912186EEFA00A98F7A /* Go_Contacts.xcdatamodel */;
+			path = Go_Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07D5C17E2186EEF900A98F7A /* Project object */;
+}
